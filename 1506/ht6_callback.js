@@ -1,46 +1,57 @@
 //***** Картофелеметатель
 
-// 3 картошки, 3 картофелеметателя и 3 соседа.
-// Картошки метаем в соседей, а соседи сообщают на об этом. :)
-var neighbors = ['Дядя Ваня', 'Мария Петровна', 'Серега'];
+var loggingThrophies = function (callback) {
 
-var potatoOne = {id:1, weight: 50, color: 'yellow'};
-var PotatoTwo = {id:2, weight: 65, color: 'red'};
-var potatoThree = {id:3, weight: 100, color: 'white'};
-var potatoes = [potatoOne, PotatoTwo, potatoThree];
+    var neighbors = ['Петр Алексеевич', 'Владимир Владимирович', 'Александр Григорьевич'];
+    var potatoOne = {id:1, weight: 50, color: 'yellow'};
+    var PotatoTwo = {id:2, weight: 65, color: 'red'};
+    var potatoThree = {id:3, weight: 100, color: 'white'};
+    var potatoes = [potatoOne, PotatoTwo, potatoThree];
 
-// генератор рандомных чисел от min до maх
-function getRandomIntFromTo(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+    // генератор случайных чисел от min до maх
+    function getRandomIntFromTo(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
-// механизм стерльбы из картофелеметателя
-var potatoBoom = function(potatoid, callback) {
-    var neighbor = neighbors[getRandomIntFromTo(0,2)]; // выберем случайного соседа
-    var timeout = getRandomIntFromTo(500, 4000);
+    // механизм стерльбы из картофелеметателя
+    var potatoBoom = function(potato, callback) {
+        var neighbor = neighbors[getRandomIntFromTo(0,2)];
+        var timeout = getRandomIntFromTo(500, 4000);
 
-    console.log('Картошка под номером ' + potatoid + ' сейчас летит к соседу по имени ' + neighbor);
+        potato.neighbor = neighbor;
 
-    setTimeout(function(){
-        callback(neighbor, potatoid);
-    }, timeout);
-};
+        setTimeout(function(){
+            callback(potato);
+        }, timeout);
+    };
+    var trophies = [];
+    var counter = 0;
 
-var trophies = [];
-var indexArray = [];
+    for (var i = 0; i<potatoes.length; i++){
+        var potatoIndex = potatoes.indexOf(potatoes[i]);
+
+        // запустим функцию c колбэком для каждой картошки и запишем результаты падения в журнал trophies
+        potatoBoom(potatoes[i], function(potato){
+            trophies.push(potato);
+            counter ++;
+            if(counter == potatoes.length){
+                callback(trophies);
+            }
+        })
+    }
+
+} // end loggingThrophies func
+
+loggingThrophies(function(trophies) {
+    console.log("Журнал трофеев: " + JSON.stringify(trophies));
+});
 
 
 
-for (var i = 0; i<potatoes.length; i++){
-    var potatoIndex = potatoes.indexOf(potatoes[i]);
-    indexArray.push(potatoes[i].id);
-    // запустим функцию c колбэком для каждой картошки
-    potatoBoom(potatoes[i].id, function(neighbor, potatoid){
-        var trophy = {};
-        trophy.neighbor = neighbor;
-        var potatoIndex = indexArray.indexOf(potatoid);
-        trophies.push(trophy);
-        console.log("Журнал трофеев: " + JSON.stringify(trophies));
-    });
 
-}
+
+
+
+
+
+

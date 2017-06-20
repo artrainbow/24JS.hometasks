@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e655e69b-dced-4907-8495-f6b5982355d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/README.md" afterPath="$PROJECT_DIR$/1506/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/ht4.js" afterPath="$PROJECT_DIR$/1506/ht4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/ht6_callback.js" afterPath="$PROJECT_DIR$/1506/ht6_callback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/ht6_simple_callback.js" afterPath="$PROJECT_DIR$/1506/ht6_simple_callback.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ht5.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1506/ht5.js">
+      <file leaf-file-name="ht6_callback.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1506/ht6_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="33">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -44,9 +44,9 @@
         <option value="$PROJECT_DIR$/1506/ht4.js" />
         <option value="$PROJECT_DIR$/1506/README.md" />
         <option value="$PROJECT_DIR$/1506/ht6.js" />
+        <option value="$PROJECT_DIR$/1506/ht5.js" />
         <option value="$PROJECT_DIR$/1506/ht6_simple_callback.js" />
         <option value="$PROJECT_DIR$/1506/ht6_callback.js" />
-        <option value="$PROJECT_DIR$/1506/ht5.js" />
       </list>
     </option>
   </component>
@@ -57,10 +57,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1676" />
+    <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="1032" />
+    <option name="width" value="1688" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ht5.js">
+  <component name="RunManager" selected="Node.js.ht6_callback.js">
     <configuration default="false" name="ht3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht3.js" working-dir="$PROJECT_DIR$/1506">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -367,8 +367,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.ht5.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.ht6_callback.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.ht6_callback.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.ht5.js" />
         <item index="2" class="java.lang.String" itemvalue="Node.js.ht3.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.ht4.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.ht6_simple_callback.js" />
@@ -389,12 +389,12 @@
       <workItem from="1497875895905" duration="388000" />
       <workItem from="1497876314470" duration="5609000" />
       <workItem from="1497882452328" duration="2127000" />
-      <workItem from="1497946286685" duration="21528000" />
+      <workItem from="1497946286685" duration="24677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30007000" />
+    <option name="totallyTimeSpent" value="33156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,15 +406,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1676" y="-4" width="1288" height="1032" extended-state="6" />
+    <frame x="-4" y="-4" width="1688" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12440476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37991717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38080168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -607,36 +607,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <marker date="1497969278471" expanded="true" signature="203:286" ph="{...}" />
+            <marker date="1497969278471" expanded="true" signature="239:283" ph="{...}" />
+            <marker date="1497969278471" expanded="true" signature="401:942" ph="{...}" />
+            <marker date="1497969278471" expanded="true" signature="438:916" ph="{...}" />
+            <marker date="1497969278471" expanded="true" signature="494:906" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1506/ht6_simple_callback.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
-            <marker date="1497967062594" expanded="true" signature="42:120" ph="{...}" />
-            <marker date="1497967062594" expanded="true" signature="134:190" ph="{...}" />
+            <marker date="1497969363321" expanded="true" signature="42:120" ph="{...}" />
+            <marker date="1497969363321" expanded="true" signature="133:189" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1506/ht6_callback.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <marker date="1497969038126" expanded="true" signature="27:136" ph="//..." />
-            <marker date="1497969038126" expanded="true" signature="489:554" ph="{...}" />
-            <marker date="1497969038126" expanded="true" signature="644:965" ph="{...}" />
-            <marker date="1497969038126" expanded="true" signature="907:952" ph="{...}" />
-            <marker date="1497969038126" expanded="true" signature="1050:1484" ph="{...}" />
-            <marker date="1497969038126" expanded="true" signature="1256:1479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1506/ht5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="33">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
         </state>
       </provider>
