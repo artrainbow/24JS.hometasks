@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e655e69b-dced-4907-8495-f6b5982355d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/README.md" afterPath="$PROJECT_DIR$/1506/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1506/ht4.js" afterPath="$PROJECT_DIR$/1506/ht4.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ht4.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1506/ht4.js">
+      <file leaf-file-name="ht5.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1506/ht5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="409">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -40,8 +41,12 @@
       <list>
         <option value="$PROJECT_DIR$/1506/ht2.js" />
         <option value="$PROJECT_DIR$/1506/ht3.js" />
-        <option value="$PROJECT_DIR$/1506/README.md" />
         <option value="$PROJECT_DIR$/1506/ht4.js" />
+        <option value="$PROJECT_DIR$/1506/README.md" />
+        <option value="$PROJECT_DIR$/1506/ht6.js" />
+        <option value="$PROJECT_DIR$/1506/ht6_simple_callback.js" />
+        <option value="$PROJECT_DIR$/1506/ht6_callback.js" />
+        <option value="$PROJECT_DIR$/1506/ht5.js" />
       </list>
     </option>
   </component>
@@ -52,10 +57,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="105" />
-    <option name="width" value="1688" />
-    <option name="height" value="1014" />
+    <option name="x" value="1676" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -101,6 +106,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="24JS.hometasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="24JS.hometasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0906" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -127,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ht4.js">
+  <component name="RunManager" selected="Node.js.ht5.js">
     <configuration default="false" name="ht3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht3.js" working-dir="$PROJECT_DIR$/1506">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -153,6 +172,78 @@
       <method />
     </configuration>
     <configuration default="false" name="ht4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht4.js" working-dir="$PROJECT_DIR$/1506">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ht6_simple_callback.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht6_simple_callback.js" working-dir="$PROJECT_DIR$/1506">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ht6_callback.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht6_callback.js" working-dir="$PROJECT_DIR$/1506">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ht5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ht5.js" working-dir="$PROJECT_DIR$/1506">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -267,14 +358,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.ht3.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.ht4.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.ht6_simple_callback.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.ht6_callback.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.ht5.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.ht4.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.ht3.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.ht5.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.ht6_callback.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.ht3.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.ht4.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.ht6_simple_callback.js" />
       </list>
     </recent_temporary>
   </component>
@@ -292,12 +389,12 @@
       <workItem from="1497875895905" duration="388000" />
       <workItem from="1497876314470" duration="5609000" />
       <workItem from="1497882452328" duration="2127000" />
-      <workItem from="1497946286685" duration="6019000" />
+      <workItem from="1497946286685" duration="21528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14498000" />
+    <option name="totallyTimeSpent" value="30007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,15 +406,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="105" width="1688" height="1014" extended-state="0" />
+    <frame x="1676" y="-4" width="1288" height="1032" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24821429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47890297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37991717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -355,7 +452,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -429,17 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1506/ht3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1497950963987" expanded="true" signature="230:738" ph="{...}" />
-            <marker date="1497950963987" expanded="true" signature="306:348" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1506/ht2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -453,11 +541,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/0906/jscounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0906/counter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1506/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="330">
+            <caret line="10" column="345" lean-forward="false" selection-start-line="10" selection-start-column="345" selection-end-line="10" selection-end-column="345" />
             <folding />
           </first_editor>
           <second_editor />
@@ -469,10 +573,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1506/ht4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="434">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1497953144892" expanded="true" signature="79:101" ph="{...}" />
+            <marker date="1497953144892" expanded="true" signature="159:201" ph="{...}" />
+            <marker date="1497953144892" expanded="true" signature="237:303" ph="{...}" />
+            <marker date="1497953144892" expanded="true" signature="343:703" ph="{...}" />
+            <marker date="1497953144892" expanded="true" signature="377:570" ph="{...}" />
+            <marker date="1497953144892" expanded="true" signature="603:700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1497950963987" expanded="true" signature="230:738" ph="{...}" />
+            <marker date="1497950963987" expanded="true" signature="306:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht6_simple_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <marker date="1497967062594" expanded="true" signature="42:120" ph="{...}" />
+            <marker date="1497967062594" expanded="true" signature="134:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht6_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <marker date="1497969038126" expanded="true" signature="27:136" ph="//..." />
+            <marker date="1497969038126" expanded="true" signature="489:554" ph="{...}" />
+            <marker date="1497969038126" expanded="true" signature="644:965" ph="{...}" />
+            <marker date="1497969038126" expanded="true" signature="907:952" ph="{...}" />
+            <marker date="1497969038126" expanded="true" signature="1050:1484" ph="{...}" />
+            <marker date="1497969038126" expanded="true" signature="1256:1479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1506/ht5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>

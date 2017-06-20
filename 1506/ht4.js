@@ -18,6 +18,6 @@ server.listen(3000)
         };
         if(req.url == '/stop' ){
             server.close(function() {});
-            console.log ('Server stop...');
+            console.log ('Server stopped!');
         };
 })
