@@ -12,15 +12,14 @@ http.createServer(function(request, response) {
         var post = qs.parse(body);
         var bbcode = post['bbcode'];
         var result = parser.string(bbcode);
-        fs.writeFile('result.json', result, function () {
-        });
-        fs.readFile('result.json', function (err, data) {
-            
-        });
+        fs.writeFile('result.html', result, function() {});
         console.log(result);
     });
     if(request.url === "/"){
         sendFileContent(response, "index.html", "text/html");
+    }
+    else if(request.url === "/result/"){
+        sendFileContent(response, "result.html", "text/html");
     }
     else{
         response.end();
