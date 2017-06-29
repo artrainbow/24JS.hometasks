@@ -9,4 +9,5 @@ var User = {
 	}
 }
 
+
 User.getName('Hello').getCode('World');
