@@ -3,14 +3,8 @@
 
 <div class="wsm_map_offices_block">
 
-	<style>
-       #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
 
-    <div id="map"></div>
+    <div id="map" style="height: 400px; width: 100%;"></div>
 
 
 	<div class="officeList">
@@ -86,37 +80,27 @@ foreach($arResult["ITEMS"] as $arItem)
 //$data = rtrim($data,',');
 
 ?>
+
+
 <script>
-
-
-  
 var offices = [<? print_r($officesData) ?>];
+     
 
-console.log(offices);
 
-//set center office
-	 
+function initMap() {
 	var officeCoors = {};
 	var center = {};
-
-
-     
-function initMap() {
     center.lat = offices[0][1];
     center.lng = offices[0][2];
-    console.log(offices, center);
 
 	var map = new google.maps.Map(document.getElementById('map'), {
-	    zoom: 12,
+	    zoom: 14,
 	    center: center
 	});
 
-	  	setMarkers(map);
-
+	setMarkers(map);
 
 	$('.b-center-map').click(function(){
-		var outer = this;
-		console.log(outer);
 		for(var i = 0; i < offices.length; i++) {
 			if(offices[i][4] == this.id) {
 				officeCoors.lat = offices[i][1];
@@ -127,12 +111,11 @@ function initMap() {
 			map.panTo(officeCoors);
 		}, 100);
 
-		
-		console.log(officeCoors);
-
 	});
 
 }
+
+
 
 function setMarkers(map) {
 
@@ -146,12 +129,14 @@ function setMarkers(map) {
 		  title: office[0],
 		  zIndex: office[3]
 		});
+
 		var infoTooltip = '<strong style="font-family: robotobold; font-size: 12px;">' + office[0] + '</strong>' + '<br />' + office[5];
 		console.log(infoTooltip);
 		attachInfo(marker, infoTooltip.toString());
 	}
 
 }
+
 
 
 function attachInfo(marker, office) {
@@ -163,7 +148,6 @@ function attachInfo(marker, office) {
     infowindow.open(marker.get('map'), marker);
   });
 }
-
 
 </script>
 
